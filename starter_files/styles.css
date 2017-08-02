@@ -1,3 +1,51 @@
 body{
-  background: blue;
+  background: lightgrey;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 36pt;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile1{
+  width: 20vw;
+  height: 40vw;
+}
+.photo img{
+  height: 22vw;
+  width: 20vw;
+}
+.name{
+  display: flex;
+  justify-content: center;
+}
+.email{
+  display: flex;
+  justify-content: center;
+}
+.address1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+}
+/*.address2{
+  display: flex;
+  justify-content: center;
+}
+.address3{
+  display: flex;
+  justify-content: center;
+}*/
+.id{
+  display: flex;
+  justify-content: center;
 }
