@@ -17,10 +17,10 @@ template += `<div class="name">${customers.results[i].name.first} ${customers.re
 
 template += `<div class="email">${customers.results[i].email}</div>`;
 
-template += `<div class="address1">${customers.results[i].location.street}
-              <p>${customers.results[i].location.city}, ${customers.results[i].location.state}
+template += `<div class="address1">${customers.results[i].location.street}</div>`;
+template += `<div class="address2"><p>${customers.results[i].location.city}, ${customers.results[i].location.state}
               ${customers.results[i].location.postcode}</p></div>`;
-
+template += `<div class="phone">${customers.results[i].phone}</div>`;
 // template += `<div class="address2>${customers.results[i].location.city}</div>`;
 
 // template += `<div class="address3">${customers.results[i].location.postcode}</div>`;
